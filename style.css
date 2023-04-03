@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  max-width: 1200px;
+  padding-inline: 10px;
+  margin-inline: auto;
+}
+
+.header {
+  font-family: Poppins;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./img/header-backround.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navigation {
+  padding-block: 24px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.navigation .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 600px;
+  color: #ffffff;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  font-size: 24px;
+  color: #ffffff;
+}
+.li_item_5 {
+  color: #3e86f5;
+  list-style: none;
+  /* padding-left: 44px;
+  padding-right: 43px;
+  padding-top: 14px;
+  padding-bottom: 15px; */
+  padding: 15px 44px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.li_item {
+  list-style: none;
+}
+
+.intro {
+  text-align: center;
+  color: #ffffff;
+}
+
+.intro .wrapper {
+  max-width: 820px;
+}
+
+.intro__heading {
+  font-size: 64px;
+  line-height: 150%;
+}
+.intro__subheading {
+  font-size: 24px;
+  line-height: 200%;
+}
+.world {
+  padding-block: 80px;
+}
+
+.world .wrapper {
+  display: flex;
+  font-family: Poppins;
+  gap: 120px;
+}
+.world__img {
+  position: relative;
+}
+
+.world__heading {
+  font-size: 48px;
+  font-weight: 600;
+  padding-top: 182px;
+}
+
+.world__paragraph {
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  line-height: 200%;
+}
+
+.btn {
+  color: #ffffff;
+  list-style: none;
+  border-style: none;
+  padding: 23px 34px;
+  background-color: #3e86f5;
+  border-radius: 10px;
+  font-family: Poppins;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.feature {
+  color: #3e86f5;
+  padding: 27px 46px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 35px;
+  position: absolute;
+  display: grid;
+  justify-items: center;
+  gap: 0;
+  width: 180px;
+  height: 120px;
+}
+
+.feature__object {
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 0%;
+}
+
+.feature__num {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.feature-destination {
+  top: 56px;
+  left: 400px;
+}
+
+.feature-tourists {
+  top: 377px;
+  right: 400px;
+}
+
+.feature-hotels {
+  left: 399px;
+  top: 537px;
+}
+
+.ending {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 120px;
+}
+
+.wrapper__ending {
+  position: relative;
+}
+
+.h1__ending {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-inline: 130px;
+}
+
+.footer__header {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+.h1__ending {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h1__ending h1 {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.ending__btn {
+  color: #3e86f5;
+  padding-block: 25px;
+  padding-inline: 35px;
+  border-radius: 25px;
+}
+
+.text h3 {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.footer__list {
+  font-size: 24px;
+  font-weight: 500;
+}
