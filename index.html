@@ -23,19 +23,21 @@
   </head>
   <body>
     <header class="header">
-      <section class="navigation">
+      <section class="navigation wave">
         <div class="wrapper">
-          <div class="logo">Treloo</div>
+          <a href="#" class="logo">Treloo</a>
           <ul class="list">
-            <li class="li_item">Review</li>
-            <li class="li_item">Tips</li>
-            <li class="li_item">Alerts</li>
-            <li class="li_item">Blog</li>
-            <li class="li_item_5">Blog</li>
+            <li class="li_item"><a href="#offers">Offers</a></li>
+            <li class="li_item"><a href="#about">About</a></li>
+            <li class="li_item">
+              <a href="#recomendations">Recomendations</a>
+            </li>
+            <li class="li_item"><a href="#feedback">Feedback</a></li>
+            <li class="li_item_5"><a href="#search">Search</a></li>
           </ul>
         </div>
       </section>
-      <section class="intro">
+      <section class="intro" id="intro">
         <div class="wrapper">
           <h1 class="intro__heading">
             Discover Your Life, Travel Where You Want
@@ -47,7 +49,9 @@
         </div>
       </section>
     </header>
-    <section class="world">
+    <section class="search fake" id="search"></section>
+    <section class="offers fake" id="offers"></section>
+    <section class="world" id="about">
       <div class="wrapper">
         <div class="world__img">
           <img
@@ -83,6 +87,79 @@
         </div>
       </div>
     </section>
+    <section class="recomendations fake" id="recomendations">
+      <div class="all">
+        
+          <h1 class="recomendations__heading">Recommended Destination</h1>
+        </div>
+        <div class="recomendations__btn">
+          <button class="popular__btn">Popular</button>
+          <button class="adventure__btn">Adventure</button>
+          <button class="beach__btn">Beach</button>
+        </div>
+        <div class="all-pictures">
+          <div class="recomendations__pictures">
+            <div class="picture-1">
+              <img
+                src="./img/recomendation picture-1.png"
+                alt=""
+                class="picture"
+              />
+              <h3 class="recomendations-pictures__heading">Kina Mountain</h3>
+              <div class="recomendations__subheading2">
+                <img src="./img/Location-symbol.png" alt="" class="symbol"/>
+                <h4 class="recomendations-pictures__subheading">Cambodia</h4>
+              </div>
+            </div>
+          </div>
+          <div class="recomendations__pictures">
+            <div class="picture-1">
+              <img
+                src="./img/recomendation picture-2.png"
+                alt=""
+                class="picture"
+              />
+              <h3 class="recomendations-pictures__heading">Kina Mountain</h3>
+              <div class="recomendations__subheading2">
+                <img src="./img/Location-symbol.png" alt="" class="symbol"/>
+                <h4 class="recomendations-pictures__subheading">Cambodia</h4>
+              </div>
+            </div>
+          </div>
+          <div class="recomendations__pictures">
+            <div class="picture-1">
+              <img
+                src="./img/recomendation picture-3.png"
+                alt=""
+                class="picture"
+              />
+              <h3 class="recomendations-pictures__heading">Kina Mountain</h3>
+              <div class="recomendations__subheading2">
+                <img src="./img/Location-symbol.png" alt="" class="symbol"/>
+                <h4 class="recomendations-pictures__subheading">Cambodia</h4>
+              </div>
+            </div>
+          </div>
+          <div class="recomendations__pictures">
+            <div class="picture-1">
+              <img
+                src="./img/recomendation picture-4.png"
+                alt=""
+                class="picture"
+              />
+              <h3 class="recomendations-pictures__heading">Kina Mountain</h3>
+              <div class="recomendations__subheading2">
+                <img src="./img/Location-symbol.png" alt="" class="symbol"/>
+                <h4 class="recomendations-pictures__subheading">Cambodia</h4>
+              </div>
+            </div>
+          </div>
+
+        </div>
+          
+      </div>
+    </section>
+    <section class="feedback fake" id="feedback"></section>
     <section class="ending">
       <div class="wrapper__ending">
         <img
@@ -95,15 +172,15 @@
           <button class="ending__btn">Register Today</button>
         </div>
       </div>
-      <div class="footer">
-        <div class="text"><h3>© 2022 Treloo LLC - All right reserved.</h3></div>
-        <ul class="footer__header">
-          <li class="footer__list">Review</li>
-          <li class="footer__list">Tips</li>
-          <li class="footer__list">Alerts</li>
-          <li class="footer__list">Blog</li>
-        </ul>
-      </div>
     </section>
+    <footer class="footer">
+      <div class="text"><h3>© 2022 Treloo LLC - All right reserved.</h3></div>
+      <ul class="footer__header">
+        <li class="footer__list">Review</li>
+        <li class="footer__list">Tips</li>
+        <li class="footer__list">Alerts</li>
+        <li class="footer__list">Blog</li>
+      </ul>
+    </footer>
   </body>
 </html>

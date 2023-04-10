@@ -4,9 +4,24 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
+  /* background-color: #c4c4c4; */
 }
 
 .wrapper {
@@ -15,24 +30,32 @@ body {
   margin-inline: auto;
 }
 
-.header {
-  font-family: Poppins;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url(./img/header-backround.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.fake {
+  min-height: 900px;
 }
 
-.navigation {
-  padding-block: 24px;
+.nav-fixed {
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
+  background-color: rgb(62, 135, 245, 0.7);
+  z-index: 5;
+}
+
+.header {
+  font-family: Poppins;
+  height: 100vh;
+  background-image: url(./img/header-backround.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.navigation {
+  padding-block: 24px;
+  transition: 1s;
 }
 .navigation .wrapper {
   display: flex;
@@ -72,6 +95,10 @@ body {
 .intro {
   text-align: center;
   color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .intro .wrapper {
@@ -95,6 +122,11 @@ body {
   font-family: Poppins;
   gap: 120px;
 }
+
+.world .wrapper > * {
+  flex: 1 1 100%;
+}
+
 .world__img {
   position: relative;
 }
@@ -190,6 +222,8 @@ body {
   justify-content: space-between;
   width: 100%;
   padding-inline: 130px;
+  padding-bottom: 5rem;
+  padding-top: 120px;
 }
 
 .footer__header {
@@ -226,4 +260,73 @@ body {
 .footer__list {
   font-size: 24px;
   font-weight: 500;
+}
+
+.recomendations__heading {
+  font-size: 48px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.recomendations__btn {
+  font-size: 18px;
+  text-align: center;
+}
+
+.popular__btn {
+  padding-block: 10px;
+  padding-inline: 23px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  border-style: none;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #3e86f5;
+}
+
+.adventure__btn {
+  border-style: none;
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 24px;
+  padding-right: 38px;
+  padding-bottom: 88px;
+}
+
+.all-pictures {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.beach__btn {
+  border-style: none;
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.symbol {
+  width: 17px;
+  height: 17px;
+}
+
+.recomendations__subheading2 {
+  display: flex;
+}
+
+.recomendations-pictures__heading {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.picture-1 {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 293px;
+  padding-inline: 10px;
+  padding-top: 10px;
+  padding-bottom: 83px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border-radius: 25px;
 }
