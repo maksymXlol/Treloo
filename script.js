@@ -12,5 +12,14 @@ window.addEventListener("scroll", function () {
 });
 
 nav.addEventListener("click", function (e) {
-  console.log(e);
+  if (e.target.tagName.toLowerCase() === "a") {
+    e.preventDefault();
+    let index = e.target.href.indexOf("#");
+    let id = e.target.href.slice(index);
+    let section = document.querySelector(id);
+    console.dir(section);
+    let x = section.offsetLeft;
+    let y = section.offsetTop - nav.clientHeight;
+    scrollTo(x, y);
+  }
 });

@@ -330,3 +330,159 @@ body {
   background-color: #ffffff;
   border-radius: 25px;
 }
+
+.recomendations {
+  padding-top: 80px;
+}
+
+.offers__section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.offers__heading {
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.offers__btn {
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.offers__couple {
+  border-style: none;
+  font-size: 18px;
+  background-color: #ffffff;
+  padding-left: 33px;
+  padding-right: 33px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.offers__family {
+  border-style: none;
+  font-size: 18px;
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.offers__team {
+  border-style: none;
+  background-color: #3e86f5;
+  font-size: 18px;
+  padding-inline: 24px;
+  padding-block: 10px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.offers__pictures {
+  background-color: #ffffff;
+}
+
+.offers-all-pictures {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.offers__subheadings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.offers-pictures__heading {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.offers__picture-1 {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  min-height: 457px;
+  padding-inline: 27px;
+  padding-top: 21px;
+  padding-bottom: 25px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border-radius: 25px;
+  /* padding-right: 33px; */
+}
+
+.offers {
+  padding-top: 80px;
+}
+
+.offers__content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.offers__text {
+  transform: rotate(90deg);
+  letter-spacing: 0.5em;
+  color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  left: 158px;
+  bottom: 84px;
+}
+
+.offers__book-now {
+  border-style: none;
+  background-color: #f2f6ff;
+  color: #3e86f5;
+  border-radius: 10px;
+  padding-inline: 19px;
+  padding-block: 13px;
+  font-size: 14px;
+  position: relative;
+}
+.offers__subheading-information {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offers__price {
+  font-size: 24px;
+  font-weight: 500px;
+}
+
+.offers__person {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.offers-pictures__heading {
+  font-size: 24px;
+}
+
+.offers__relax {
+  font-size: 14px;
+  color: #f178b6;
+  padding-inline: 16px;
+  background-color: #fcddec;
+  border-radius: 100px;
+}
+
+.offers__days-and-nights {
+  padding-left: 12px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 21px;
+}
+
+.offers__relax-2 {
+  font-size: 14px;
+  color: #7879f1;
+  padding-inline: 16px;
+  background-color: #f1f1fd;
+  border-radius: 100px;
+}
