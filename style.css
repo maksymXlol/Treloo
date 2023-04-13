@@ -21,7 +21,7 @@ a {
 body {
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
-  /* background-color: #c4c4c4; */
+  overflow-x: hidden;
 }
 
 .wrapper {
@@ -90,6 +90,37 @@ body {
 }
 .li_item {
   list-style: none;
+}
+
+.burger {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .burger {
+    display: block;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 30px;
+  }
+  .burger__close {
+    display: none;
+  }
+  .burger.active .burger__close {
+    display: block;
+  }
+  .burger.active .burger__menu {
+    display: none;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__nav.active {
+    position: fixed;
+    inset: 0;
+    display: block;
+  }
 }
 
 .intro {
@@ -296,6 +327,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .beach__btn {
@@ -425,6 +457,8 @@ body {
   display: flex;
   flex-direction: row;
   gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .offers__text {
