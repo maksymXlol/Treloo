@@ -21,6 +21,9 @@ nav.addEventListener("click", function (e) {
     let x = section.offsetLeft;
     let y = section.offsetTop - nav.clientHeight;
     scrollTo(x, y);
+    burger.classList.remove("active");
+    header.classList.remove("active");
+    document.body.classList.remove("overflow");
   }
 });
 const header = document.querySelector(".header__nav");
@@ -34,4 +37,5 @@ burger.addEventListener("click", function () {
 
   burger.classList.toggle("active");
   header.classList.toggle("active");
+  document.body.classList.toggle("overflow");
 });
