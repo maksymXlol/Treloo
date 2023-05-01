@@ -185,13 +185,13 @@ body.overflow {
   padding-block: 80px;
 }
 
-.world .wrapper {
+.world__wrapper {
   display: flex;
   font-family: Poppins;
   gap: 120px;
 }
 
-.world .wrapper > * {
+.world__wrapper > * {
   flex: 0 1 50%;
 }
 
@@ -210,6 +210,19 @@ body.overflow {
   padding-bottom: 20px;
   padding-top: 20px;
   line-height: 200%;
+}
+
+@media (width < 992px) {
+  .world__wrapper {
+    gap: 50px;
+  }
+}
+
+@media (width < 650px) {
+  .world__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media (max-width: 769px) {
@@ -265,20 +278,12 @@ body.overflow {
 }
 
 @media (max-width: 769px) {
-  .feature-destination {
-    top: 121px;
-    left: 0px;
-  }
-}
-
-.feature-hotels {
-  top: 249px;
-  left: 0px;
-}
-
-@media (max-width: 769px) {
   .feature-hotels {
     top: 249px;
+    left: 0px;
+  }
+  .feature-destination {
+    top: 121px;
     left: 0px;
   }
 }
@@ -419,7 +424,7 @@ body.overflow {
  OFFERS 
 ==================================*/
 
-.offers__section {
+.offers__wrapper {
   display: flex;
   align-items: center;
   flex-direction: column;
