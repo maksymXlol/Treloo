@@ -1,273 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Treloo</title>
+		<title>Treloo</title>
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+			rel="stylesheet"
+		/>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="./style.css" />
+		<!-- CSS -->
+		<link rel="stylesheet" href="./style.css" />
 
-    <!-- JS -->
-    <script src="./script.js" defer></script>
-  </head>
-  <body>
-    <div class="top" id="top"></div>
-    <header class="header">
-      <section class="navigation wave">
-        <div class="wrapper">
-          <a href="#top" class="logo">Treloo</a>
-          <nav class="header__nav">
-            <ul class="list">
-              <li class="li_item"><a href="#offers">Offers</a></li>
-              <li class="li_item"><a href="#about">About</a></li>
-              <li class="li_item">
-                <a href="#recomendations">Recomendations</a>
-              </li>
-              <li class="li_item"><a href="#feedback">Feedback</a></li>
-              <li class="li_item_5"><a href="#search">Search</a></li>
-            </ul>
-          </nav>
-          <button class="burger">
-            <ion-icon name="grid-outline" class="burger__menu"></ion-icon>
-            <ion-icon name="close-circle-outline" class="burger__close"></ion-icon>
-          </button>
-        </div>
-      </section>
-      <section class="intro" id="intro">
-        <div class="wrapper">
-          <h1 class="intro__heading">
-            Discover Your Life, Travel Where You Want
-          </h1>
-          <p class="intro__subheading">
-            Would you explore nature paradise in the world, let’s find the best
-            destination in world with us.
-          </p>
-        </div>
-      </section>
-    </header>
-    <section class="search" id="search"></section>
-    <section class="offers" id="offers">
-      <div class="offers__wrapper wrapper">
-        <!-- <h1 class="offers__heading">
-          Special Upcoming Offers
-        </h1>
-        <div class="offers__btn">
-          <button class="offers__team">Team</button>
-          <button class="offers__couple">Couple</button>
-          <button class="offers__family">Family</button>
-        </div>
-        <div class="offers__content">
-          <div class="offers__pictures">
-              <div class="offers__picture-1">
-                <div class="offers__pictures-text">
-                  <img
-                    src="./img/offers-picture_1.png"
-                    alt=""
-                    class="offers__picture"
-                  />
-                  <div class="offers__text">14 FEB 2022</div>
-                </div>
-                <div class="offers__information-1">
-                  <span class="offers__relax">Relax</span>
-                  <span class="offers__days-and-nights">3 Days, 3 Nights</span>
-                </div>
+		<!-- JS -->
+		<script src="./script.js" defer></script>
+	</head>
 
-                <h3 class="offers-pictures__heading">Laga Sea</h3>
-                <div class="offers__subheadings">
-                  <div>
-                    <span class="offers__price">700$</span><span class="offers__person">/Person</span>
-                  </div>
-                  <button class="offers__book-now">Book Now</button>
-                </div>
-              </div>
-           
-            <div class="offers__picture-1">
-              <div class="offers__pictures-text">
-                <img
-                  src="./img/offers-picture_2.png"
-                  alt=""
-                  class="offers__picture"
-                />
-                <div class="offers__text">18 JUN 2022</div>
-              </div>
-              <div class="offers__information-1">
-                <span class="offers__relax-2">Adventure</span>
-                <span class="offers__days-and-nights">4 Days, 3 Nights</span>
-              </div>
+	<body>
+		<div class="top" id="top"></div>
+		<header class="header">
+			<!-- 
+      NAVIGATION
+     -->
+			<section class="navigation wave">
+				<div class="wrapper">
+					<a href="#top" class="logo">Treloo</a>
+					<nav class="header__nav">
+						<ul class="list">
+							<li class="li_item"><a href="#offers">Offers</a></li>
+							<li class="li_item"><a href="#about">About</a></li>
+							<li class="li_item">
+								<a href="#recomendations">Recomendations</a>
+							</li>
+							<li class="li_item"><a href="#feedback">Feedback</a></li>
+							<li class="li_item_5"><a href="#search">Search</a></li>
+						</ul>
+					</nav>
+					<button class="burger">
+						<ion-icon name="grid-outline" class="burger__menu"></ion-icon>
+						<ion-icon
+							name="close-circle-outline"
+							class="burger__close"
+						></ion-icon>
+					</button>
+				</div>
+			</section>
 
-              <h3 class="offers-pictures__heading">Ansgar Scheffold</h3>
-              <div class="offers__subheadings">
-                <div>
-                  <span class="offers__price">400$</span><span class="offers__person">/Person</span>
-                </div>
-                <button class="offers__book-now">Book Now</button>
-              </div>
-            </div>
-            <div class="offers__picture-1">
-              <div class="offers__pictures-text">
-                <img
-                  src="./img/offers-picture_3.png"
-                  alt=""
-                  class="offers__picture"
-                />
-                <div class="offers__text">22 DEC 2022</div>
-              </div>
-              <div class="offers__information-1">
-                <span class="offers__relax">Relax</span>
-                <span class="offers__days-and-nights">7 Days, 6 Nights</span>
-              </div>
+			<!-- 
+      INTRO
+     -->
+			<section class="intro" id="intro">
+				<div class="wrapper">
+					<h1 class="intro__heading">
+						Discover Your Life, Travel Where You Want
+					</h1>
+					<p class="intro__subheading">
+						Would you explore nature paradise in the world, let’s find the best
+						destination in world with us.
+					</p>
+				</div>
+			</section>
+		</header>
 
-              <h3 class="offers-pictures__heading">Lona X</h3>
-              <div class="offers__subheadings">
-                <div>
-                  <span class="offers__price">340$</span><span class="offers__person">/Person</span>
-                </div>
-                <button class="offers__book-now">Book Now</button>
-              </div>
-            </div>
-        </div>
-      </div> -->
-    </div>
-    </section>
-    <section class="world" id="about">
-      <div class="world__wrapper wrapper">
-        <div class="world__img">
-          <img
-            src="./img/bacgground for section__world.png"
-            alt=""
-            class="img"
-          />
-          <div class="feature feature-destination">
-            <span class="feature__num"> +300 </span>
-            <span class="feature__object"> Destination </span>
-          </div>
-          <div class="feature feature-tourists">
-            <span class="feature__num"> +5000 </span>
-            <span class="feature__object"> Tourists</span>
-          </div>
-          <div class="feature feature-hotels">
-            <span class="feature__num"> +150 </span>
-            <span class="feature__object"> Hotels</span>
-          </div>
-        </div>
-        <div>
-          <h1 class="world__heading">Travel Any Corner of The World With Us</h1>
-          <p class="world__paragraph">
-            Would you explore nature paradise in the world, let’s find the best
-            destination in world with us, Would you explore nature paradise in
-            the world, let’s find the best destination in world with us. Would
-            you explore nature paradise in the world, let’s find the best
-            destination in world with us. Would you explore nature paradise in
-            the world, let’s find the best destination in world with us.
-          </p>
-          <button class="btn">Contact Us</button>
-        </div>
-      </div>
-    </section>
-    <section class="recomendations " id="recomendations">
-      <div class="all">
+		<!-- 
+      SEARCH
+     -->
+		<section class="search" id="search"></section>
 
-          <h1 class="recomendations__heading">Recommended Destination</h1>
-        </div>
-        <div class="recomendations__btn">
-          <button class="popular__btn">Popular</button>
-          <button class="adventure__btn">Adventure</button>
-          <button class="beach__btn">Beach</button>
-        </div>
-        <div class="all-pictures">
-          <div class="recomendations__pictures">
-            <div class="picture-1">
-              <img
-                src="./img/recomendation picture-1.png"
-                alt=""
-                class="picture"
-              />
-              <h3 class="recomendations-pictures__heading">Kina Mountain</h3>
-              <div class="recomendations__subheading2">
-                <img src="./img/Location-symbol.png" alt="" class="symbol"/>
-                <h4 class="recomendations-pictures__subheading">Cambodia</h4>
-              </div>
-            </div>
-          </div>
-          <div class="recomendations__pictures">
-            <div class="picture-1">
-              <img
-                src="./img/recomendation picture-2.png"
-                alt=""
-                class="picture"
-              />
-              <h3 class="recomendations-pictures__heading">Kina Mountain</h3>
-              <div class="recomendations__subheading2">
-                <img src="./img/Location-symbol.png" alt="" class="symbol"/>
-                <h4 class="recomendations-pictures__subheading">Cambodia</h4>
-              </div>
-            </div>
-          </div>
-          <div class="recomendations__pictures">
-            <div class="picture-1">
-              <img
-                src="./img/recomendation picture-3.png"
-                alt=""
-                class="picture"
-              />
-              <h3 class="recomendations-pictures__heading">Kina Mountain</h3>
-              <div class="recomendations__subheading2">
-                <img src="./img/Location-symbol.png" alt="" class="symbol"/>
-                <h4 class="recomendations-pictures__subheading">Cambodia</h4>
-              </div>
-            </div>
-          </div>
-          <div class="recomendations__pictures">
-            <div class="picture-1">
-              <img
-                src="./img/recomendation picture-4.png"
-                alt=""
-                class="picture"
-              />
-              <h3 class="recomendations-pictures__heading">Kina Mountain</h3>
-              <div class="recomendations__subheading2">
-                <img src="./img/Location-symbol.png" alt="" class="symbol"/>
-                <h4 class="recomendations-pictures__subheading">Cambodia</h4>
-              </div>
-            </div>
-          </div>
+		<!-- 
+      OFFERS
+     -->
+		<section class="offers" id="offers">
+			<div class="offers__wrapper wrapper">
+				<h1 class="offers__heading">Special Upcoming Offers</h1>
+				<div class="offers__btn">
+					<button class="offers__team">Team</button>
+					<button class="offers__couple">Couple</button>
+					<button class="offers__family">Family</button>
+				</div>
+				<div class="offers__content">
+					<div class="offers__pictures">
+						<div class="offers__picture-1">
+							<div class="offers__pictures-text">
+								<img
+									src="./img/offers-picture_1.png"
+									alt=""
+									class="offers__picture"
+								/>
+								<div class="offers__text">14 FEB 2022</div>
+							</div>
+							<div class="offers__information-1">
+								<span class="offers__relax">Relax</span>
+								<span class="offers__days-and-nights">3 Days, 3 Nights</span>
+							</div>
 
-        </div>
+							<h3 class="offers-pictures__heading">Laga Sea</h3>
+							<div class="offers__subheadings">
+								<div>
+									<span class="offers__price">700$</span
+									><span class="offers__person">/Person</span>
+								</div>
+								<button class="offers__book-now">Book Now</button>
+							</div>
+						</div>
 
-      </div>
-    </section>
-    <section class="feedback fake" id="feedback"></section>
-    <section class="ending">
-      <div class="ending__wrapper wrapper">
-        <div class="ending__content">
-          <h1 class="ending__heading">Don’t Miss The 50% Discount if You register Today</h1>
-          <button class="ending__btn">Register Today</button>
-        </div>
-      </div>
-    </section>
-    <footer class="footer">
-      <div class="wrapper footer__wrapper">
-        <h3 class="footer__heading">© 2022 Treloo LLC - All right reserved.</h3>
-        <ul class="footer__list">
-          <li><a href="#" class="footer__link"> Review</a></li>
-          <li><a href="#" class="footer__link"> Tips</a></li>
-          <li><a href="#"class="footer__link"> Alerts</a></li>
-          <li><a href="#" class="footer__link"> Blog</a></li>
-        </ul>
-      </div>
-    </footer>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-  </body>
+						<div class="offers__picture-1">
+							<div class="offers__pictures-text">
+								<img
+									src="./img/offers-picture_2.png"
+									alt=""
+									class="offers__picture"
+								/>
+								<div class="offers__text">18 JUN 2022</div>
+							</div>
+							<div class="offers__information-1">
+								<span class="offers__relax-2">Adventure</span>
+								<span class="offers__days-and-nights">4 Days, 3 Nights</span>
+							</div>
+
+							<h3 class="offers-pictures__heading">Ansgar Scheffold</h3>
+							<div class="offers__subheadings">
+								<div>
+									<span class="offers__price">400$</span
+									><span class="offers__person">/Person</span>
+								</div>
+								<button class="offers__book-now">Book Now</button>
+							</div>
+						</div>
+						<div class="offers__picture-1">
+							<div class="offers__pictures-text">
+								<img
+									src="./img/offers-picture_3.png"
+									alt=""
+									class="offers__picture"
+								/>
+								<div class="offers__text">22 DEC 2022</div>
+							</div>
+							<div class="offers__information-1">
+								<span class="offers__relax">Relax</span>
+								<span class="offers__days-and-nights">7 Days, 6 Nights</span>
+							</div>
+
+							<h3 class="offers-pictures__heading">Lona X</h3>
+							<div class="offers__subheadings">
+								<div>
+									<span class="offers__price">340$</span
+									><span class="offers__person">/Person</span>
+								</div>
+								<button class="offers__book-now">Book Now</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- 
+      ABOUT
+     -->
+		<section class="world" id="about">
+			<div class="world__wrapper wrapper">
+				<div class="world__img">
+					<img
+						src="./img/bacgground for section__world.png"
+						alt=""
+						class="img"
+					/>
+					<div class="feature feature-destination">
+						<span class="feature__num"> +300 </span>
+						<span class="feature__object"> Destination </span>
+					</div>
+					<div class="feature feature-tourists">
+						<span class="feature__num"> +5000 </span>
+						<span class="feature__object"> Tourists</span>
+					</div>
+					<div class="feature feature-hotels">
+						<span class="feature__num"> +150 </span>
+						<span class="feature__object"> Hotels</span>
+					</div>
+				</div>
+				<div>
+					<h1 class="world__heading">Travel Any Corner of The World With Us</h1>
+					<p class="world__paragraph">
+						Would you explore nature paradise in the world, let’s find the best
+						destination in world with us, Would you explore nature paradise in
+						the world, let’s find the best destination in world with us. Would
+						you explore nature paradise in the world, let’s find the best
+						destination in world with us. Would you explore nature paradise in
+						the world, let’s find the best destination in world with us.
+					</p>
+					<button class="btn">Contact Us</button>
+				</div>
+			</div>
+		</section>
+
+		<!-- 
+      RECOMENDATIONS
+     -->
+		<section class="recomendations" id="recomendations">
+			<h1 class="recomendations__heading">Recommended Destination</h1>
+
+			<div class="recomendations__btn">
+				<button class="popular__btn">Popular</button>
+				<button class="adventure__btn">Adventure</button>
+				<button class="beach__btn">Beach</button>
+			</div>
+
+			<div class="all-pictures">
+				<div class="picture-1">
+					<img src="./img/recomendation picture-1.png" alt="" class="picture" />
+					<h3 class="recomendations-pictures__heading">Kina Mountain</h3>
+					<div class="recomendations__subheading2">
+						<img src="./img/Location-symbol.png" alt="" class="symbol" />
+						<h4 class="recomendations-pictures__subheading">Cambodia</h4>
+					</div>
+				</div>
+
+				<div class="picture-1">
+					<img src="./img/recomendation picture-2.png" alt="" class="picture" />
+					<h3 class="recomendations-pictures__heading">Kina Mountain</h3>
+					<div class="recomendations__subheading2">
+						<img src="./img/Location-symbol.png" alt="" class="symbol" />
+						<h4 class="recomendations-pictures__subheading">Cambodia</h4>
+					</div>
+				</div>
+
+				<div class="picture-1">
+					<img src="./img/recomendation picture-3.png" alt="" class="picture" />
+					<h3 class="recomendations-pictures__heading">Kina Mountain</h3>
+					<div class="recomendations__subheading2">
+						<img src="./img/Location-symbol.png" alt="" class="symbol" />
+						<h4 class="recomendations-pictures__subheading">Cambodia</h4>
+					</div>
+				</div>
+
+				<div class="picture-1">
+					<img src="./img/recomendation picture-4.png" alt="" class="picture" />
+					<h3 class="recomendations-pictures__heading">Kina Mountain</h3>
+					<div class="recomendations__subheading2">
+						<img src="./img/Location-symbol.png" alt="" class="symbol" />
+						<h4 class="recomendations-pictures__subheading">Cambodia</h4>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- 
+      FEEDBACK
+     -->
+		<section class="feedback fake" id="feedback"></section>
+		<section class="ending">
+			<div class="ending__wrapper wrapper">
+				<div class="ending__content">
+					<h1 class="ending__heading">
+						Don’t Miss The 50% Discount if You register Today
+					</h1>
+					<button class="ending__btn">Register Today</button>
+				</div>
+			</div>
+		</section>
+
+		<!-- 
+      FOOTER
+     -->
+		<footer class="footer">
+			<div class="wrapper footer__wrapper">
+				<h3 class="footer__heading">© 2022 Treloo LLC - All right reserved.</h3>
+				<ul class="footer__list">
+					<li><a href="#" class="footer__link"> Review</a></li>
+					<li><a href="#" class="footer__link"> Tips</a></li>
+					<li><a href="#" class="footer__link"> Alerts</a></li>
+					<li><a href="#" class="footer__link"> Blog</a></li>
+				</ul>
+			</div>
+		</footer>
+
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+		></script>
+	</body>
 </html>
