@@ -29,12 +29,6 @@ nav.addEventListener("click", function (e) {
 const header = document.querySelector(".header__nav");
 let burger = document.querySelector(".burger");
 burger.addEventListener("click", function () {
-  // if (burger.classList.contains("active")) {
-  //   burger.classList.remove("active");
-  // } else {
-  //   burger.classList.add("active");
-  // }
-
   burger.classList.toggle("active");
   header.classList.toggle("active");
   document.body.classList.toggle("overflow");
