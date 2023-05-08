@@ -435,6 +435,47 @@ body.overflow {
 }
 
 /*================================
+ FEEDBACK
+==================================*/
+.feedback {
+  text-align: center;
+}
+.swiper-slide {
+  text-align: center;
+  padding-inline: 340px;
+}
+
+.feedback__name {
+  padding-top: 10px;
+  color: #3e86f5;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.feedback__quote {
+  font-weight: 500;
+}
+
+.swiper-button-prev {
+  border-color: #3e86f5;
+  border-radius: 11px;
+  background-color: #ffffff;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  color: #3e86f5;
+}
+
+.swiper-button-next {
+  border-color: #3e86f5;
+  border-radius: 11px;
+  background-color: #ffffff;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  color: #3e86f5;
+}
+/*================================
  OFFERS 
 ==================================*/
 
@@ -526,7 +567,6 @@ body.overflow {
 
 .offers__content {
   display: flex;
-  flex-direction: row;
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
