@@ -489,7 +489,7 @@ FEEDBACK
 }
 
 .swiper-wrapper {
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 .swiper-slide {
@@ -504,6 +504,16 @@ FEEDBACK
   height: 30px;
   font-size: 20px;
   color: #3e86f5;
+  top: 475px;
+  left: 168px;
+}
+
+.swiper-button-next:after {
+  content: "";
+}
+
+.swiper-button-prev:after {
+  content: "";
 }
 
 .swiper-button-next {
@@ -514,6 +524,9 @@ FEEDBACK
   height: 30px;
   font-size: 20px;
   color: #3e86f5;
+  top: 475px;
+  right: 168px;
+  content: "";
 }
 /*================================
  OFFERS 
