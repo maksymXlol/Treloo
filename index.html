@@ -17,6 +17,10 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
 
     <!-- JS -->
     <script src="./script.js" defer></script>
@@ -85,76 +89,74 @@
           <button class="offers__family">Family</button>
         </div>
         <div class="offers__content">
-          <div class="offers__pictures">
-            <div class="offers__picture-1">
-              <div class="offers__pictures-text">
-                <img
-                  src="./img/offers-picture_1.png"
-                  alt=""
-                  class="offers__picture"
-                />
-                <div class="offers__text">14 FEB 2022</div>
-              </div>
-              <div class="offers__information-1">
-                <span class="offers__relax">Relax</span>
-                <span class="offers__days-and-nights">3 Days, 3 Nights</span>
-              </div>
-
-              <h3 class="offers-pictures__heading">Laga Sea</h3>
-              <div class="offers__subheadings">
-                <div>
-                  <span class="offers__price">700$</span
-                  ><span class="offers__person">/Person</span>
-                </div>
-                <button class="offers__book-now">Book Now</button>
-              </div>
+          <div class="offers__picture-1">
+            <div class="offers__pictures-text">
+              <img
+                src="./img/offers-picture_1.png"
+                alt=""
+                class="offers__picture"
+              />
+              <div class="offers__text">14 FEB 2022</div>
+            </div>
+            <div class="offers__information-1">
+              <span class="offers__relax">Relax</span>
+              <span class="offers__days-and-nights">3 Days, 3 Nights</span>
             </div>
 
-            <div class="offers__picture-1">
-              <div class="offers__pictures-text">
-                <img
-                  src="./img/offers-picture_2.png"
-                  alt=""
-                  class="offers__picture"
-                />
-                <div class="offers__text">18 JUN 2022</div>
+            <h3 class="offers-pictures__heading">Laga Sea</h3>
+            <div class="offers__subheadings">
+              <div>
+                <span class="offers__price">700$</span
+                ><span class="offers__person">/Person</span>
               </div>
-              <div class="offers__information-1">
-                <span class="offers__relax-2">Adventure</span>
-                <span class="offers__days-and-nights">4 Days, 3 Nights</span>
-              </div>
-
-              <h3 class="offers-pictures__heading">Ansgar Scheffold</h3>
-              <div class="offers__subheadings">
-                <div>
-                  <span class="offers__price">400$</span
-                  ><span class="offers__person">/Person</span>
-                </div>
-                <button class="offers__book-now">Book Now</button>
-              </div>
+              <button class="offers__book-now">Book Now</button>
             </div>
-            <div class="offers__picture-1">
-              <div class="offers__pictures-text">
-                <img
-                  src="./img/offers-picture_3.png"
-                  alt=""
-                  class="offers__picture"
-                />
-                <div class="offers__text">22 DEC 2022</div>
-              </div>
-              <div class="offers__information-1">
-                <span class="offers__relax">Relax</span>
-                <span class="offers__days-and-nights">7 Days, 6 Nights</span>
-              </div>
+          </div>
 
-              <h3 class="offers-pictures__heading">Lona X</h3>
-              <div class="offers__subheadings">
-                <div>
-                  <span class="offers__price">340$</span
-                  ><span class="offers__person">/Person</span>
-                </div>
-                <button class="offers__book-now">Book Now</button>
+          <div class="offers__picture-1">
+            <div class="offers__pictures-text">
+              <img
+                src="./img/offers-picture_2.png"
+                alt=""
+                class="offers__picture"
+              />
+              <div class="offers__text">18 JUN 2022</div>
+            </div>
+            <div class="offers__information-1">
+              <span class="offers__relax-2">Adventure</span>
+              <span class="offers__days-and-nights">4 Days, 3 Nights</span>
+            </div>
+
+            <h3 class="offers-pictures__heading">Ansgar Scheffold</h3>
+            <div class="offers__subheadings">
+              <div>
+                <span class="offers__price">400$</span
+                ><span class="offers__person">/Person</span>
               </div>
+              <button class="offers__book-now">Book Now</button>
+            </div>
+          </div>
+          <div class="offers__picture-1">
+            <div class="offers__pictures-text">
+              <img
+                src="./img/offers-picture_3.png"
+                alt=""
+                class="offers__picture"
+              />
+              <div class="offers__text">22 DEC 2022</div>
+            </div>
+            <div class="offers__information-1">
+              <span class="offers__relax">Relax</span>
+              <span class="offers__days-and-nights">7 Days, 6 Nights</span>
+            </div>
+
+            <h3 class="offers-pictures__heading">Lona X</h3>
+            <div class="offers__subheadings">
+              <div>
+                <span class="offers__price">340$</span
+                ><span class="offers__person">/Person</span>
+              </div>
+              <button class="offers__book-now">Book Now</button>
             </div>
           </div>
         </div>
@@ -254,8 +256,8 @@
     <!-- 
       FEEDBACK
      -->
-    <section class="feedback" id="feedback">
-      <div class="feedback__wrapper wrapper">
+    <section class="feedbacks" id="feedback">
+      <div class="feedbacks__wrapper wrapper">
         <div class="swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide feedback">
@@ -265,6 +267,18 @@
                 seamlessly. Our travel planner, Jaouad, was increadible.
               </p>
               <h4 class="feedback__name">-Vand D</h4>
+
+              <img class="feedback__img" src="./img/feedback-1.png" alt="" />
+            </div>
+            <div class="swiper-slide feedback">
+              <p class="feedback__quote">
+                Our trip to Morocco was truly a onece in a lifetime experience
+                and we are so grateful to everyone that made it happen
+                seamlessly. Our travel planner, Jaouad, was increadible.
+              </p>
+              <h4 class="feedback__name">-Tru Vio</h4>
+
+              <img class="feedback__img" src="./img/feedback-2.png" alt="" />
             </div>
           </div>
           <button class="swiper-button-prev">
@@ -312,5 +326,19 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script type="module">
+      import Swiper from "https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js";
+
+      const swiper = new Swiper(".swiper", {
+        allowSlideNext: true,
+        allowSlidePrev: true,
+        speed: 400,
+        spaceBetween: 100,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
   </body>
 </html>
